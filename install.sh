@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get install python-setuptools -y
 easy_install supervisor
 mkdir -p /etc/supervisor/conf.d
 wget https://raw.githubusercontent.com/liudanking/supervisor-install/master/supervisord.conf -O /etc/supervisor/supervisord.conf
